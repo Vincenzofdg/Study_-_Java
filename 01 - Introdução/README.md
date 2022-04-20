@@ -13,7 +13,8 @@ Instale o Eclipse atraves do [script](https://github.com/Vincenzofdg/Programms/b
 ![perstective](../.imgs/perstective.png)
 
 4. Select `Docker Tooling`;
-5. ![docker_tooling](../.imgs/docker_tooling.png)
+
+![docker_tooling](../.imgs/docker_tooling.png)
 
 ### Git
 1. Com o Eclipse aberto: Help => Eclipse Maketplace;
