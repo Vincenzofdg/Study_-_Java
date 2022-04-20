@@ -1,1 +1,1 @@
-![wipro](./banner.jpg)
+![wipro](./.imgs/banner.jpg)
