@@ -10,7 +10,6 @@ public class A_Exercicio {
   public static void main(String[] args) {
     // Exercicio 01:
     // Emprima no terminal o numero seu sucessor e antecessor.
-
     Scanner scan01 = new Scanner(System.in);
 
     try {
@@ -24,7 +23,6 @@ public class A_Exercicio {
 
     // Exercicio 02:
     // Emprima no terminal o lado e a área de um quadrado.
-
     Scanner scan02 = new Scanner(System.in).useLocale(Locale.US);
 
     try {
@@ -55,7 +53,6 @@ public class A_Exercicio {
 
     // Exercicio 04:
     // Converter valor de byte para bits.
-
     Scanner scan4 = new Scanner(System.in).useLocale(Locale.US);
 
     try {
@@ -73,6 +70,17 @@ public class A_Exercicio {
     boolean isLigada = true;
 
     System.out.println("A lampada ligada: " + isLigada + "!");
+
+    // Exercicio 06:
+    // Calcule o fatorial de 18.
+    int num = 18;
+    long fatorial18 = (long) num;
+
+    while (num > 1) {
+      fatorial18 *= --num;
+    }
+
+    System.out.println("O fatorial de 18 é igual a " + fatorial18);
   }
 
 }
