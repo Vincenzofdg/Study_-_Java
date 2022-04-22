@@ -67,6 +67,12 @@ public class A_Exercicio {
     } finally {
       scan4.close();
     }
+
+    // Exercicio 05:
+    // Faça uma saida falando se a lampada esta ligada ou nao.
+    boolean isLigada = true;
+
+    System.out.println("A lampada ligada: " + isLigada + "!");
   }
 
 }
