@@ -52,6 +52,21 @@ public class A_Exercicio {
     } finally {
       scan3.close();
     }
+
+    // Exercicio 04:
+    // Converter valor de byte para bits.
+
+    Scanner scan4 = new Scanner(System.in).useLocale(Locale.US);
+
+    try {
+      System.out.println("Digite um número:");
+      byte valor = scan4.nextByte();
+      int qtdBits = valor * 8;
+
+      System.out.println(valor + " bytes correspodem a " + qtdBits + " bits");
+    } finally {
+      scan4.close();
+    }
   }
 
 }
