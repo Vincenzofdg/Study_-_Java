@@ -81,6 +81,25 @@ public class A_Exercicio {
     }
 
     System.out.println("O fatorial de 18 é igual a " + fatorial18);
+
+    // Exercicio 07:
+    // Soma do primeiro e ultimo elemento de um array.
+    Scanner scan7 = new Scanner(System.in).useLocale(Locale.US);
+
+    int[] myArray = new int[3];
+
+    try {
+      for (int index = 0; index < 3; index++) {
+        System.out.println("Digite um número:");
+        myArray[index] = scan7.nextInt();
+      }
+
+      int soma = myArray[0] + myArray[myArray.length - 1];
+      System.out.println("A soma é: " + soma);
+    } finally {
+      scan7.close();
+    }
+
   }
 
 }
