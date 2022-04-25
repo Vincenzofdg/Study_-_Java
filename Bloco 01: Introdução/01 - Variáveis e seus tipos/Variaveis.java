@@ -1,6 +1,6 @@
 package A_Introducao;
 
-public class A_Variaveis {
+public class Variaveis {
 
 	public static void main(String[] args) {
 		// TIPOS PRIMITIVOS
