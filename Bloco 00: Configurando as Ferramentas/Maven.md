@@ -31,3 +31,7 @@ export PATH
 6. Reinicie novamente e verifique:
    - `echo $JAVA_HOME` retorna _/usr/lib/jvm/java-1.11.0-openjdk-amd64_;
    - `echo $MAVEN_HOME` retorna _/opt/apache-maven-3.8.5_;
+
+<hr />
+
+- Rodar o checkstyle pelo terminal: `mvn checkstyle:check`
